@@ -103,7 +103,7 @@ header h1::first-letter {
     justify-content: center;
 }
 
-.section-hero h2 {
+.section-hero h1 {
     font-size: 65px;
     text-transform: uppercase;
     color: white;
@@ -464,22 +464,45 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+footer div a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer div a:hover {
+    transform: scale(1.2);
 }
 
 footer h2 {
     color: white;
     text-transform: uppercase;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 footer img {
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 }
 
 footer img:hover {
     background-color: #c82333;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin-top: 10px;
 }
 
 
