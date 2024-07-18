@@ -467,6 +467,8 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: 0;
+    padding-top: 20px
 }
 
 footer div {
@@ -579,5 +581,82 @@ footer p {
 
     .section-hero p {
         font-size: 12px;
+    }
+}
+
+/* CONTACTO */
+@media (max-width: 768px) {
+    .contacto {
+        padding: 20px;
+    }
+
+    .contact-form-container {
+        width: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-actions {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 769px) {
+    .contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .contact-form-container {
+        width: 50%;
+    }
+}
+
+/* NOSOTROS */
+@media (max-width: 768px) {
+    .section-nosotros {
+        text-align: center;
+    }
+
+    .section-nosotros img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer div {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    .section-nosotros {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section-nosotros img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    footer div {
+        margin-bottom: 0;
     }
 }
